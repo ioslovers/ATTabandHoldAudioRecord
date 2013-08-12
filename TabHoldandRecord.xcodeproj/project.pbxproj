@@ -26,6 +26,7 @@
 		759C39CD17B8BB3200F923D2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 759C39CC17B8BB3200F923D2 /* AudioToolbox.framework */; };
 		759C39D117B8BB4000F923D2 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 759C39D017B8BB4000F923D2 /* CoreAudio.framework */; };
 		759C39D317B8BB6700F923D2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 759C39D217B8BB6700F923D2 /* AVFoundation.framework */; };
+		759C39D617B8C10200F923D2 /* Screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 759C39D517B8C10200F923D2 /* Screen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		759C39CC17B8BB3200F923D2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		759C39D017B8BB4000F923D2 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		759C39D217B8BB6700F923D2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		759C39D517B8C10200F923D2 /* Screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Screen.png; path = ../../../../Desktop/Screen.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 		759C39A417B8B84500F923D2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				759C39D517B8C10200F923D2 /* Screen.png */,
 				759C39C317B8B90200F923D2 /* listing_done_btn~iphone.png */,
 				759C39C417B8B90200F923D2 /* Play.png */,
 				759C39A517B8B84500F923D2 /* TabHoldandRecord-Info.plist */,
@@ -196,6 +199,7 @@
 				759C39BD17B8B84600F923D2 /* ViewController_iPad.xib in Resources */,
 				759C39C517B8B90200F923D2 /* listing_done_btn~iphone.png in Resources */,
 				759C39C617B8B90200F923D2 /* Play.png in Resources */,
+				759C39D617B8C10200F923D2 /* Screen.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +346,7 @@
 				759C39C217B8B84600F923D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
